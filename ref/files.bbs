@@ -1,0 +1,24 @@
+ CP/M CDROM, Sep. 1994.  Walnut Creek CDROM.
+ -------------------------------------------
+ Squeeze programs
+ path: \utils\squeeze
+ -------------------------------------------
+00SQ-USQ.DOC Read First for description of de/compression programs
+ALUSQ2.COM   
+MAKESQ       
+MAKEUSQ      
+SQ.1         
+SQ.C         
+SQ.EXE       
+SQ.H         
+SQCOM.H      
+SQDEBUG.C    
+SQIO.C       
+TR1.C        
+TR2.C        
+USQ.C        
+USQ.EXE      
+USQ.H        
+USQ.OBJ      
+UTR.C        
+UTR.OBJ      

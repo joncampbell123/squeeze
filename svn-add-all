@@ -1,0 +1,12 @@
+#!/bin/bash
+echo Ensuring all names are lowercase
+./make-lowercase || exit 1
+echo Running clean
+./cleanup.sh >/dev/null
+echo Committing the rest
+svn add * */* */*/* */*/*/* */*/*/*/*
+svn commit --message x
+svn update
+# svn revert * */* */*/* */*/*/* */*/*/*/*
+exit 0
+
