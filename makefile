@@ -20,3 +20,7 @@ usq:	usq.o utr.o
 clean:
 	rm -f *.o *.a usq sq
 
+install:
+	mkdir -p $(DESTDIR)/usr/bin
+	cp -v usq sq $(DESTDIR)/usr/bin/
+
